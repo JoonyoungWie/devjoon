@@ -1,9 +1,9 @@
-baseURL = "https://example.com/"
+baseURL = "https://blog.devjoon.com/"
 languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
-title = "LoveIt Theme"                                   # website title
+title = "DevJoon"                                   # website title
 theme = "LoveIt"                                         # theme
-enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
+enableGitInfo = true                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
 paginate = 12                                            # default amount of posts in each pages
 enableEmoji = true                                       # whether to use emoji code
@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
 staticDir = ["static", "../assets/others"]               # static directories
 
 [author]                                              #### Author Info
-  name = "XXXX"
+  name = "JoonyoungWie"
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
@@ -71,17 +71,17 @@ staticDir = ["static", "../assets/others"]               # static directories
                                                       #### Home Page Info
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = "images/avatar.png"                           # URL of avatar shown in home page
-  subtitle = "A Clean, Elegant but Advanced Hugo Theme"  # subtitle shown in home page
+  avatar = "https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Pink&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Twinkle&skinColor=Pale"                           # URL of avatar shown in home page
+  subtitle = "안녕하세요, 위준영의 블로그입니다."  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
                                                       #### Footer CopyRight Info
-  since = 2018                                           # Site creation time
+  since = 2020                                           # Site creation time
   icp = ''                                               # ICP info only in China (HTML format is allowed)
   license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
                                                          # license info (HTML format is allowed)
-  gitRepo = ""                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
+  gitRepo = "https://github.com/JoonyoungWie/JoonyoungWie.github.io"                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
 
   linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
 
@@ -117,7 +117,7 @@ staticDir = ["static", "../assets/others"]               # static directories
     email = ""
 
   [params.social]                                        # Social Info in home page
-    GitHub = "xxxx"
+    GitHub = "https://github.com/JoonyoungWie"
     Linkedin = "xxxx"
     Twitter = "xxxx"
     #Instagram = "xxxx"
